@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 
-/*o algoritmo é o mais eficiente para achar combinação e é simples a ideia por traz do algoritmo que é um pouco menos simples*/
+/*o algoritmo é o mais eficiente para achar combinação e é simples a ideia por traz do algoritmo é  complicada*/
 int main(){
 
 FILE *arquivo;
@@ -10,7 +10,7 @@ char a=97,b=2,c=3,d=4,e=5,f=6;
 int n,p,i;
 int contador=0;
 
-arquivo=fopen("code_by_gabrielbgab.txt","w");
+arquivo=fopen("gerador_de_codigo_fonte_de_combinacao.txt","w");
 printf("programa para gerarum programa em linguagem C para calcular combinação de n elemento em grupos de tamanho p\n");
 printf("Digite n\n");
 scanf("%d",&n);
@@ -47,8 +47,8 @@ for(i=p;i>1;i--){fprintf(arquivo," if(%c==%d){%c%c++;} \n }",96+i,55+i,96+i-1,96
 fprintf(arquivo,"\n }");
 
 
-printf("\nThe code has been planted!!! \nveja o arquivo de texto com o programa\n");
-printf("\ncounter-terrorist win!");
+printf("\n O arquivo de teto gerado tem o codigo fonte \n");
+
 
 
 fclose(arquivo);
