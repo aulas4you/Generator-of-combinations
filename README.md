@@ -5,15 +5,13 @@ Exemplo para achar combinação C 6,2.
 
 Simples faça o download do arquivo  gerador_de_programa_para_gerar_combinação.c
 
-execute o programa em c . E digite 6 e deopois 2.  
+execute o programa em c . 
 
-Ira ser criado um arquivo code_by_gabrielbgab.txt
+E digite 6 ,enter...e depois 2..enter.  
 
-Mude de code_by_gabrielbgab.txt para code_by_gabrielbgab.c
+Irá ser criado um arquivo de texto que contem o codigo fonte em c.
 
-e execute o arquivo.
 
-o resultado saira no aulas4you.txt (apenas os numeros)
 
 Exemplo de resultado para C60,6 -> todos os 50 milhoes de jogos da mega sena
 Exemplo de resultado para C25,15 -> todos os 3 milhoes de jogos da lotofacil
@@ -25,7 +23,7 @@ Exemplo de resultado para C31,7 -> todos os 2 milhoes de jogos do dia da sorte
 OBS: Use o software Pilotedit para abrir arquivos de textos grandes.Se abrir com editor de texto comum trava.
 http://www.pilotedit.com/index.html
 
-<h1>O algoritmo</h1>
+<h1>Ideia por tras do  algoritmo</h1>
 
 A combinação de n elementos tomados em grupos de  p pode ser representado por um sistema numerico especial
 
@@ -100,11 +98,11 @@ no sistema de digitos(1,2,3,4,5,6,...,n) e escolher os numeros de p algarismos e
 E depois mapear  a=1,b=2,c=3,d=4,e=5,6=f,....n=Z
 
 
-<h3>problema<h3/>
+<h3>limitações<h3/>
 
 Quando aumento o p, é preciso aumentar um loop. Então tive que fazer um algoritmo para gerar outro algoritmo para poder
 implementar o Cn,p para um p generico.
-Porem usei apenas 25 letras do alfabeto e calcula ate Cn,25. Para grupos maiores que 25 é so modificar o algoritmo .
+Porem usei apenas 25 letras do alfabeto e calcula ate Cn,25. Para grupos maiores que 25 é so modificar o algoritmo e acrescentar mais letras.
 
 
 
